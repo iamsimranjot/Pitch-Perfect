@@ -44,11 +44,13 @@ class PlaySoundsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupAudio()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         configureUI(playState: .NotPlaying)
         
         //Add selectors for Interrupts, Route Changes and Calls
@@ -141,7 +143,4 @@ class PlaySoundsViewController: UIViewController {
         
     }
     
-    override func viewWillLayoutSubviews() {
-    
-    }
 }
