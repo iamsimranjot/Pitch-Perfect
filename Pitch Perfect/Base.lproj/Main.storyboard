@@ -160,6 +160,7 @@
                         <outlet property="rabbitButton" destination="tqw-nH-6Ig" id="tnd-Xq-bKx"/>
                         <outlet property="reverbButton" destination="8ze-Ms-7bw" id="38z-B5-fDl"/>
                         <outlet property="snailButton" destination="Uwq-Dw-7f7" id="q9u-Xy-AOf"/>
+                        <outlet property="stackView" destination="8L4-q6-etO" id="hHf-r6-HNu"/>
                         <outlet property="stopButton" destination="ssj-dl-cr4" id="4fu-y3-feU"/>
                         <outlet property="vaderButton" destination="DCC-dm-11m" id="U40-9H-oTS"/>
                     </connections>

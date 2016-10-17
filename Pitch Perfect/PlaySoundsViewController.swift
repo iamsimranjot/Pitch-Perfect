@@ -20,6 +20,7 @@ class PlaySoundsViewController: UIViewController {
     @IBOutlet weak var echoButton: UIButton!
     @IBOutlet weak var vaderButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var stackView: UIStackView!
     
     //MARK: Properties
     
@@ -141,6 +142,23 @@ class PlaySoundsViewController: UIViewController {
         setupAudio()
         stopAudio()
         
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        
+        super.viewWillTransition(to: size, with: coordinator)
+        
+        coordinator.animate(alongsideTransition: { (UIViewControllerTransitionCoordinatorContext) in
+            
+            self.stackView.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+            
+        }) { (UIViewControllerTransitionCoordinatorContext) in
+            
+            UIView.animate(withDuration: 0.5, animations: {
+                
+                self.stackView.transform = CGAffineTransform.identity
+            })
+        }
     }
     
 }
