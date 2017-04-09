@@ -1,5 +1,5 @@
 # Pitch-Perfect
-###iOS Developer Nano Degree Project
+### iOS Developer Nano Degree Project
 
 The Pitch Perfect app is result of Intro to iOS App Development with Swift lesson of Udacity's iOS Developer Nanodegree course.
 
@@ -10,7 +10,7 @@ Basic features Based on the criteria found in here:
 
 ![](/ScreenShots/ScreenShot1.png) ![](/ScreenShots/ScreenShot2.png) ![](/ScreenShots/ScreenShot4.png)
                           
-##Implementation
+## Implementation
 
 Pitch Perfect has two Scenes: 
 
@@ -21,7 +21,7 @@ Pitch Perfect has two Scenes:
 
 The application uses code from `AVFoundation` to record sounds from the microphone `(AVAudioRecorder)` and play recorded audio with effects `(AVAudioPlayer, AVAudioEngine)`.
 
-##Requirements
+## Requirements
 
 - Xcode 8 Above
 - Swift 3.0
